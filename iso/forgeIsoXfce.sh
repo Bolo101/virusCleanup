@@ -4,7 +4,7 @@
 set -e
 
 # Variables
-ISO_NAME="$(pwd)/shadowClone-v0.1.iso"
+ISO_NAME="$(pwd)/virusCleaner-v0.1.iso"
 WORK_DIR="$(pwd)/debian-live-build"
 CODE_DIR="$(pwd)/../code"
 DATABASE_DIR="$(pwd)/../database"
