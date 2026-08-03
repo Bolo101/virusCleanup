@@ -319,7 +319,7 @@ def write_device_scan_report_pdf(
     else:
         lines.append("Aucune menace detectee sur ce support.")
 
-    lines += ["", "Rapport genere par USB Antivirus Scanner - EDF"]
+    lines += ["", "Rapport genere par USB Antivirus Scanner"]
 
     _write_pdf(dest, "Rapport de scan - USB Antivirus Scanner",
                lines,
